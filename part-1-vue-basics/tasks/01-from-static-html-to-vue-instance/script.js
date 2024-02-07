@@ -1,7 +1,7 @@
 Vue.createApp({
   data() {
-    return  {
-       userName: 'John Doe'
-     }
+    return {
+      userName: "John Doe",
+    };
   },
 }).mount("#app");
