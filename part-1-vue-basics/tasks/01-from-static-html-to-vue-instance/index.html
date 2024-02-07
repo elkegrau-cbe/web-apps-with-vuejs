@@ -26,7 +26,7 @@
                 <div id="app">
                     <h2>Welcome back <strong>{{ userName }}</strong>!</h2>
                     <p>
-                        You logged in on 1/24/2022, 12:34:25 PM<br />
+                        You logged in on {{ new Date().toLocaleString('en-US') }}<br />
                         We wish you a pleasant day.
                     </p>
                 </div>
